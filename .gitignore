@@ -42,6 +42,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-dir_to_ignore/downloads
-dir_to_ignore/images
-dir_to_ignore/lyrics
+/downloads
+/images
+/lyrics
