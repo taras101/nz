@@ -43,17 +43,22 @@ html {
 .sitenav ul li a:hover{
 	color: orange;
 }
+header{
+	height: 94px;
+}
 #page_header{
 	clear: all;
-	height: 40px;
 	width: 100%;
-	margin: 10px 0 0 50%;
+	margin: 10px 0 0 0;
 }
 h1{
 	text-shadow: 2px 2px 2px #000;
 	font-size: 5em;
 	color: #A8805E;
-	margin: 0;
+	height: 100%;
+	width: 652px;
+	margin: 0 0 0 50%;
+	overflow: visible;
 }
 ul {
     list-style-type: none;
@@ -93,7 +98,7 @@ p{
 }
 .main{
 	margin:auto;
-	padding-top: 80px;
+	padding-top: 35px;
 	height: 100%;
 
 }
@@ -121,15 +126,15 @@ button{
 	display: none;
 	border: 0 auto;
 }
-@media all and (max-width: 1000px) and (min-width: 700px) {
+@media all and (max-width: 1200px) and (min-width: 700px) {
  html { 
-  background: url(./images/press1.jpg) no-repeat center center fixed; 
+  background: url(./images/press1.jpg) no-repeat left center fixed; 
   background-color: #2E2017;
   }
   #page_header{
-  	margin:0 auto;
-  	width: 800px;
-		text-align: center;
+	}
+	h1{
+		margin-left: 350px;
 	}
 	.sitenav ul{
 		margin-left: 50px;
@@ -155,9 +160,9 @@ button{
   background-color: #2E2017;
   }
   #page_header{
-	height: 75px;
-	width: 320px;
-	margin: 50px auto 25px auto;
+	}
+	header{
+		height: 75px;
 	}
 	.menu{
 		margin-top: 5px;
@@ -169,6 +174,9 @@ button{
 	}
 	h1{
 		font-size: 2.8em;
+		text-align: center;
+		margin: 0;
+		width: 100%;
 	}
 	h2{
 		font-size: 2em;
