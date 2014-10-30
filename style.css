@@ -43,7 +43,7 @@ html {
 .sitenav ul li a:hover{
 	color: orange;
 }
-header{
+#page_header header{
 	height: 94px;
 }
 #page_header{
@@ -159,9 +159,11 @@ button{
   background: none; 
   background-color: #2E2017;
   }
+  header{
+  }
   #page_header{
 	}
-	header{
+	#page_header header{
 		height: 75px;
 	}
 	.menu{
@@ -181,10 +183,10 @@ button{
 	h2{
 		font-size: 2em;
 		text-align: center;
+		height: 100%;
 	}
 	#main{
 		width: auto;
-		height: 1080px;
 		margin: 0 auto;
 	}
 	.main{
