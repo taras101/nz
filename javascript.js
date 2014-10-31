@@ -4,7 +4,14 @@ $(document).ready(function(){
 	function mailMe(sDom, sUser){
 	    return("mail"+"to:"+sUser+"@"+sDom.replace(/%23/g,"."));
 	}
-  $("button").click(function(){$(".sitenav").toggle(1000);
+  $("button").click(function(){$(".topnav").toggle(1000);
 	});
+	// Something happens
+$("body").on("click", function() {
+
+  // State changes
+  $("body").removeClass("dialogIsOpen");
+
+});
 
 });
