@@ -86,6 +86,21 @@ a:hover{
 p{
 		font-size: 1em;
 }
+.records{
+	width: 600px;
+	height: 300px;
+	margin: auto;
+}
+figcaption{
+	width: 300px;
+
+}
+figure{
+	width: 300px;
+	margin: 0 auto;
+	float: left;
+
+}
 #main{
 	display: block;
 	top: 50px;
@@ -178,6 +193,7 @@ button{
   pointer-events: auto;
 
 }
+
 #page-wrap, #modal {
   
   transition: all 1s ease; /* prefix me */
@@ -278,7 +294,13 @@ body {
 		margin: 0 auto;
 	}
 	#page_footer{
+		clear: both;
 		margin: 0 auto;
 	}
+	.records{
+	height: 420px;
+	width: 200px;
+	margin: auto;
+}
 
 }

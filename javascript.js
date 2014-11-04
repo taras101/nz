@@ -11,5 +11,6 @@ $(document).ready(function(){
   // State changes
   $("body").removeClass("dialogIsOpen");
 	});
+	$("#news").fadeOut(100).fadeIn(2000);
 
 });
