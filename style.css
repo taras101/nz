@@ -207,7 +207,7 @@ body {
 
 @media all and (max-width: 1200px) and (min-width: 700px) {
  html {
-  background: url(./images/press1.jpg) no-repeat left center fixed;
+  background: url(http://www.noahsong.com/noahsite/images/press1.jpg) no-repeat left center fixed;
   background-color: #2E2017;
   }
   #page_header{
