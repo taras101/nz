@@ -43,9 +43,7 @@ html {
 .sitenav ul li a:hover{
 	color: orange;
 }
-#page_header header{
-	height: 94px;
-}
+ 
 #page_header{
 	clear: all;
 	width: 100%;
@@ -204,15 +202,17 @@ body {
 }
 
 
-@media all and (max-width: 1200px) and (min-width: 700px) {
+@media all and (max-width: 1200px) and (min-width: 640px) {
  html {
-  background: url(http://www.noahsong.com/noahsite/images/press1.jpg) no-repeat left center fixed;
+  background: url(http://www.noahsong.com/noahsite/images/press1.jpg) no-repeat left top fixed;
   background-color: #2E2017;
   }
   #page_header{
 	}
 	h1{
-		margin-left: 350px;
+		font-size: 2.8em;
+		margin: 0 auto 0 35%;
+		width: auto;
 	}
 	.sitenav ul{
 		margin-left: 50px;
@@ -223,10 +223,17 @@ body {
 	#footernav ul{
  	margin-left: 180px;
 	}
-	#main{
-		margin-left: 350px;
-		width: 500px;
+	h2{
+		font-size: 2em;
+		height: 100%;
 	}
+	.main{
+			padding:0	;
+	}
+	#main{
+		width: auto;
+		margin: 0 auto 0 35%;
+	}	
 	#page_footer{
 		margin: 0 auto;
 	}
@@ -234,7 +241,7 @@ body {
 }
 
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 639px) {
  html {
   background: none;
   background-color: #2E2017;
@@ -302,9 +309,8 @@ body {
 	margin: auto;
 	}
 	#news {
-  top: 11%;
-  
+  top: 7%;
   pointer-events: none;
-}
+	}
 
 }
