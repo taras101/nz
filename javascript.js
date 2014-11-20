@@ -7,7 +7,7 @@ $(document).ready(function(){
   $("button").click(function(){$(".topnav").toggle(1000);
 	});
 	// Something happens
-	$("body").on("click", function() {
+	$("body").on("click touchstart", function() {
   // State changes
   $("body").removeClass("dialogIsOpen");
 	});
