@@ -26,7 +26,7 @@ html {
 	height: 100%;
 	width: 760px;
 	padding: 0;
-	margin:20px 0 0 50%;
+	margin:20px 0 0 40%;
 }
 .sitenav ul li{
 	float: left;
@@ -57,7 +57,7 @@ h1{
 	color: #A8805E;
 	height: 100%;
 	width: 652px;
-	margin: 0 0 0 50%;
+	margin: 0 0 0 40%;
 	overflow: visible;
 }
 ul {
@@ -104,7 +104,7 @@ figure{
 #main{
 	display: block;
 	top: 50px;
-	margin:0 0 0 50%;
+	margin:0 0 0 40%;
 	color: #E2D5CC;
 	overflow: visible;
 	height: 100%;
@@ -130,7 +130,7 @@ figure{
 	height: 20px;
 	width: 240px;
 	color: #C1A088;
-	margin:0 0 0 50%;
+	margin:0 0 0 40%;
 	padding-bottom: 10px;
 }
 button{
